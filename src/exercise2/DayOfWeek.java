@@ -11,7 +11,6 @@ public class DayOfWeek {
         int day = input.nextInt();
 
         if (day == 1) {
-<<<<<<< HEAD
           System.out.println("Day of week: Monday");
         } else if (day == 2) {
           System.out.println("Day of week: Teusday");
@@ -25,21 +24,6 @@ public class DayOfWeek {
           System.out.println("Day of week: Saterday");
         } else if (day == 7) {
           System.out.println("Day of week: Sunday");
-=======
-          System.out.println("Day of the week: Monday");
-        } else if (day == 2) {
-          System.out.println("Day of the week: Teusday");
-        } else if (day == 3) {
-          System.out.println("Day of the week: Wednesday");
-        } else if (day == 4) {
-          System.out.println("Day of the week: Thursday");
-        } else if (day == 5) {
-          System.out.println("Day of the week: Freiday");
-        } else if (day == 6) {
-          System.out.println("Day of the week: Saterday");
-        } else if (day == 7) {
-          System.out.println("Day of the week: Sunday");
->>>>>>> 6df4fc25177ea057d1e428916bab9daee97e86e7
         } else{
           System.out.println("Inavalid day");
         }
