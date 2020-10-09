@@ -22,12 +22,10 @@ public class QuadraticEquation {
               double squareRoot = Math.sqrt(D);
               double x1 = (- b + squareRoot) / (a * 2);
               double x2 = (- b - squareRoot) / (a * 2);
-              System.out.println(x1);
-              System.out.println(x2);
+              System.out.println(x1 + ", " + x2);
             } else if (D == 0){
               double x = (- b) / (a * 2);
-              System.out.println(x);
-              System.out.println(x);
+              System.out.println(x + ", " + x);
             } else {
               System.out.println("Imaginary values");
             }
