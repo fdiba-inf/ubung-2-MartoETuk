@@ -22,18 +22,18 @@ public class QuadraticEquation {
               double squareRoot = Math.sqrt(D);
               double x1 = (- b + squareRoot) / (a * 2);
               double x2 = (- b - squareRoot) / (a * 2);
-              System.out.println("x1 = " + x1);
-              System.out.println("x2 = " + x2);
+              System.out.println(x1);
+              System.out.println(x2);
             } else if (D == 0){
               double x = (- b) / (a * 2);
-              System.out.println("x1 = " + x);
-              System.out.println("x2 = " + x);
+              System.out.println(x);
+              System.out.println(x);
             } else {
               System.out.println("Imaginary values");
             }
         } else if (b != 0) {
             double x3 = - (c / b);
-            System.out.println("x = " + x3);
+            System.out.println(x3);
         } else if (c != 0) {
             System.out.println("No values");
         } else {
